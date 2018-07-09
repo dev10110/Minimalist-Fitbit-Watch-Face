@@ -1,0 +1,47 @@
+.background {
+  viewport-fill: black;
+}
+
+#timelabel {
+  font-size: 70;
+  font-family: System-Light;
+  text-length: 32;
+  text-anchor: start;
+  x: 15%;
+  y: 70%;
+  fill: fb-slate;
+}
+
+
+#datelabel { 
+  font-size: 40;
+  font-family: Colfax-Medium;
+  text-length: 32;
+  text-anchor: start;
+  x: 15%;
+  y: 90%;
+  fill: fb-slate;
+  opacity: 0.4
+}
+
+#hrlabel { 
+  font-size: 30;
+  font-family: Colfax-Medium;
+  text-length: 32;
+  text-anchor: start;
+  x: 15%;
+  y: 15%;
+  fill: fb-slate;
+  opacity: 0.35
+}
+
+#stepslabel { 
+  font-size: 30;
+  font-family: Colfax-Medium;
+  text-length: 32;
+  text-anchor: start;
+  x: 15%;
+  y: 30%;
+  fill: fb-slate;
+  opacity: 0.35
+}

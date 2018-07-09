@@ -1,0 +1,22 @@
+{
+  "fitbit": {
+    "appUUID": "141361b0-7e82-426a-a5c4-b746c3b8b16f",
+    "appType": "clockface",
+    "appDisplayName": "Minimalist Clock Face",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Minimalist Clock Face"
+      }
+    }
+  }
+}

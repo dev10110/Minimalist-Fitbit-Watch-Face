@@ -1,0 +1,6 @@
+<svg class="background">
+  <text id="timelabel" />
+  <text id="datelabel" />
+  <text id="hrlabel" />
+  <text id="stepslabel" />
+</svg>
