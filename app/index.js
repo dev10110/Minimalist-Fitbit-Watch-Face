@@ -44,6 +44,8 @@ const stepslabel = document.getElementById("stepslabel");
 "August", "September", "October",
 "November", "December"
 ];
+
+ const dayNames = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
   
   
 
@@ -51,13 +53,13 @@ const stepslabel = document.getElementById("stepslabel");
 clock.ontick = (evt) => {
   let today = evt.date;
   let hours = today.getHours();
-  let day = today.getDay();
+  let dayIndex = today.getDay();
   let date = today.getDate();
   let monthIndex = today.getMonth();
   
  
 
-  datelabel.text=`${date} ${monthNames[monthIndex]}`;
+  datelabel.text=`${dayNames[dayIndex]} ${date} ${monthNames[monthIndex]}`;
   
   
   if (preferences.clockDisplay === "12h") {
